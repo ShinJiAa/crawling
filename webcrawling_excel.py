@@ -8,8 +8,6 @@ itemlist = soup.select('div.best-list')
 item = itemlist[1]
 product = item.select('ul > li')
 
-datalist = []
-
 # 엑셀 파일 만들기
 excel_file = openpyxl.Workbook()
 excel_sheet = excel_file.active
